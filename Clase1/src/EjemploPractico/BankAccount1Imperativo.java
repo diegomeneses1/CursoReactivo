@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class BankAccountImperativo {
+public class BankAccount1Imperativo {
     private List<Transaction> transactions;
 
-    public BankAccountImperativo() {
+    public BankAccount1Imperativo() {
         transactions = new ArrayList<>();
     }
 

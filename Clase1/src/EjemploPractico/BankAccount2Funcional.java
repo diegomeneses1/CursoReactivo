@@ -3,10 +3,15 @@ package EjemploPractico;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BankAccountFuncional {
+//En el ejemplo funcional, utilizamos lambdas para expresar operaciones sobre los elementos de la lista
+//de manera más concisa. También utilizamos Optional para manejar posibles valores nulos, y Stream junto
+// con métodos como filter, map, y collect para realizar operaciones de filtrado y transformación sobre
+// la lista de transacciones.
+
+public class BankAccount2Funcional {
     private List<Transaction> transactions;
 
-    public BankAccountFuncional() {
+    public BankAccount2Funcional() {
         transactions = new ArrayList<>();
     }
 
